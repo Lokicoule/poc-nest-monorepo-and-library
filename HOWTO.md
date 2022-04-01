@@ -5,7 +5,7 @@
   > nest new my-project
 
 - Convert to monorepo
-
+  > cd my-project
   > nest generate app my-app
 
 - Create lib
