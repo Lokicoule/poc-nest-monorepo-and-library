@@ -12,7 +12,7 @@
 
   > nest generate library my-lib
 
-- Update tsconfig
+- check apps tsconfig if extends root's tsconfig
   > "paths": {
       "@my-lib": ["libs/core/src"],
       "@my-lib/*": ["libs/core/src/*"]
